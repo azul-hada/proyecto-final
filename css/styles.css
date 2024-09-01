@@ -67,24 +67,6 @@ nav a {
   font-size: 38px;
 }
 
-/* footer {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-footer p {
-  margin-bottom: .25rem;
-} */
-
-/* .site-header a {
-  color: white;
-  transition: ease-in-out color .15s;
-}
-
-.site-header .dropdown-menu a {
-  color: black;
-} */
-
 .dropzone {
   border: 2px dashed #6495ED;
   border-radius: 5px;
@@ -230,31 +212,6 @@ a.custom-card:hover {
   border-radius: 50%; 
   margin-left: 10px; 
 }
-
-footer {
-  background-color: #6495ED; 
-  padding: 10px; 
-  color: white; 
-  align-items: right; 
-}
-
-footer nav ul {
-  list-style: none; 
-  margin: 0; 
-  padding: 0; 
-  display: flex; 
-}
-
-footer nav ul li {
-  margin-right: 15%; 
-}
-
-
-footer nav ul li a {
-  color: white; 
-  text-decoration: none; 
-  font-size: 18px;
-}
 .help-icon {
   position: fixed;
   bottom: 20px;
@@ -276,3 +233,7 @@ footer nav ul li a {
 .help-icon:hover {
   background-color: #4169E1;
 }
+
+
+
+
