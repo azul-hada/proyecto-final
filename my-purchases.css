@@ -1,0 +1,69 @@
+/* SECCION MIS COMPRAS */
+#mis-compras {
+  width: 800px;
+  height: 800px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Estilo de las tablas dentro de Mis Compras */
+.table {
+  border-left: none;
+  border-right: none;
+  border-radius: 15px;
+  border-collapse: separate;
+  overflow: hidden;
+  border-spacing: 0;
+  text-align: center;
+  height: 300px;
+}
+
+/* Para pantallas pequeñas */
+@media (max-width: 600px) {
+  #mis-compras {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+
+  .table {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 8px;
+  }
+}
+
+/* Para pantallas medianas  */
+@media (min-width: 601px) and (max-width: 1024px) {
+  #mis-compras {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .table {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+}
+
+/* Para pantallas grandes */
+@media (min-width: 1025px) {
+  #mis-compras {
+    width: 800px;
+    height: 800px;
+    padding: 20px;
+  }
+
+  .table {
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+  }
+}
+
+
+
